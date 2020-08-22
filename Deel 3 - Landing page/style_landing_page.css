@@ -1,0 +1,271 @@
+/* Dit is het stylesheet voor de bestemmingspagina */
+
+html {
+    font-family: "Verdana", "Cambria", sans-serif;
+}
+body {
+    background-color: cornsilk;
+    margin: 0;
+}
+p {
+    color:darkslategray;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "Verdana", "Cambria", sans-serif;
+}
+header {
+    height: 90px;
+    background-color: azure;
+}
+#header-container {
+    width: 80%;
+    margin: auto;
+}
+.logo {
+    margin-top: 30px;
+}
+.drie_kolommen {
+    width: 33.3%;
+    float: left;
+}
+.menuutje {
+    margin-top: 32px;
+}
+.menuutje li {
+    list-style-type: none;    
+    display: inline;
+    font-size: .85em;
+    color: #8e8e8e;
+    padding: 20px 20px;
+}
+.Google-knop {
+    background-color: darkslateblue;
+    color: #ffffff;
+    border-radius: 28px;
+    text-decoration: none;
+    padding: 15px 30px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+    float: right;
+}
+#bovenste-sectie-main {
+    background-image: url(afbeeldingen_landing/daughters_inside.jpg);
+    background-repeat: no-repeat;
+    height: 675px;
+    margin-bottom: 25px;
+    border: none;
+    background-position: 50% 0%;
+}
+#bovenste-sectie-content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+#bovenste-sectie-content h1 {
+    font-size: 4em;
+    font-weight: 400;
+    color: floralwhite;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+#bovenste-sectie-content p {
+    font-size: 1.3em;
+    font-weight: 300;
+    color: floralwhite;
+    text-align: center;
+}
+.Afspeelknop {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 120px 0px 100px 0px;
+}
+.fomulierboven h5 {
+    font-size: 1.4em;
+    color: brown;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+}
+.formulierboveninput {
+    margin: 0;
+    width: 31%;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-weight: 100;
+    border: none;
+    margin-left: 25px;
+}
+.formulierbovenbutton {
+    width: 20%;
+    height: : 200px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 7.5px 0px;
+    font-weight: 100;
+    border: none;
+    background-color: aquamarine;
+    color: black;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+#uitgelicht {
+    padding-top:10px;
+}
+.titel-uitgelicht {
+    width: 70%;
+    padding: 20px 0px 5px 0px;
+    margin: auto;
+    text-align: center;
+    font-weight: 200;
+    line-height: 45px;
+}
+.uitgelicht-content {
+    margin: auto;
+    width: 81%;
+    padding: 15px;
+}
+.uitgelicht-content .drie_kolommen img {
+    width: 99%;
+}
+.uitgelicht-content .drie_kolommen p {
+    font-size: .9em;
+    letter-spacing:1.5px;
+    margin-bottom: 100px;
+    text-align:justify;
+    padding: 0px 75px;
+}
+.uitgelicht-content .drie_kolommen h3 {
+    text-align: center;
+    padding-top: 9px;
+}
+.twee_kolommen {
+    width: 49.99%;
+    float: left;
+}
+#showcase1-container {
+    padding: 0px;
+    width: 100%;
+    clear:both;
+    background-color: darkgoldenrod;
+}
+.showcase {
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+}
+.afbeelding-midden {
+    width: 100%;
+    margin-right: auto;
+    padding: 0px;
+}
+.kopje-paragraaf {
+    padding: 10px 180px 0px 10px;
+    text-align:justify;
+}
+.kopje-midden {
+    margin-left: 210px;
+    font-weight: 200;
+    padding: 0px;
+}
+.paragraaf_midden{
+    margin-left: 210px;
+    letter-spacing: 1.5px;
+    width: 80%;
+}
+#showcase2-container {
+    padding: 0px;
+    width: 100%;
+    clear:both;
+    background-color:darksalmon;
+}
+#call-to-action {
+    background-image: url(afbeeldingen_landing/high_res3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+.callto_section {
+    text-align: center;
+}
+.callto_h2 {
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+.callto_p {
+    width: 50%;
+    margin: auto;
+    font-size: 1.7em;
+    font-weight: bold;
+    line-height: inherit;
+    letter-spacing:1.1px;
+    color: white;
+    margin-bottom: 220px;
+    text-align:justify;
+    padding: 50px 75px;
+    text-transform: uppercase;
+}
+.fandom_button {
+    background-color: darkslateblue;
+    color: #ffffff;
+    border-radius: 28px;
+    text-decoration: none;
+    padding: 18px 33px;
+    margin-top: 20px;
+    font-size: 20px;
+    float: center;
+}
+.fandom_button:hover {
+    background-color: black;
+}
+.aanmelden h2 {
+    padding: 20px 0px 0px 0px;
+    text-align:left;
+    margin-left: 25px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.aanmelden {
+    background-color: bisque;
+    margin-right: 200px;
+    color: darkgray;
+}
+footer {
+    background-color:black;
+    clear: both;
+    height: 300px;
+    background-image: url(afbeeldingen_landing/movie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 3%;
+
+}
+.social-footer {
+    width: 33%;
+    float: left;
+    height: 50%;
+}
+.social-footer:hover {
+    opacity: .8; 
+}
+.centreren {
+    width: 50px;
+    margin: auto;
+    padding-top: 66px;
+}
+.copyright {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}

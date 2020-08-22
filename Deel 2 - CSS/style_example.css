@@ -1,0 +1,18 @@
+/*Dit is het stylesheet voor 'box CSS.html' */
+
+#div-one {
+    background-color: black;
+    color: #ffffff;
+    padding: 90px 75px 110px 50px;
+    border-style: double;
+    border-width: 50px;
+    border-color: darkgreen;
+    margin: 20px 500px 20px 200px;
+}
+#div-two {
+    background-color: aqua;
+   
+}
+#div-three {
+    background-color:antiquewhite;
+    
